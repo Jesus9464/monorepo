@@ -13,6 +13,14 @@
   "author": "Jesus galvis <jesus.galvis@e-volution.co>",
   "scripts": {
     "common": "yarn workspace @monorepo/common",
-    "web": "yarn workspace @monorepo/web"
+    "web": "yarn workspace @monorepo/web",
+    "app": "yarn workspace @monorepo/mobile",
+    "clean:modules": "npx rimraf **/node_modules"
+  },
+  "dependencies": {
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^3.0.0"
   }
 }
