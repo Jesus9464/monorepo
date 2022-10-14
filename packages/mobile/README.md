@@ -30,31 +30,16 @@ NOTES:
 - Open Xcode: `yarn app xcode`
 - Go to Window->Devices and Simulators, select simulators. On the bottom of the left menu select the "+" sign, and then choose the iPhone X simulator on Device Type field then tap create button.
 
-![Add iPhone X](./screenshots/add-iphone-x.png){width=520px}
-
 13. `yarn app ios:dev` or `yarn app android:dev` to start development
-
-![App running on M1](./screenshots/app-running-on-m1.png){width=536px}
-
-# Extra commands
-
-- IF you want to run and test QA build run `yarn app ios:qa` or `yarn app android:qa` the same with production build `yarn app ios:production` or `yarn app android:production`
-- If you need create APK build `yarn app android:apk:qa` or `yarn app android:apk:production`
 
 # Troubleshooting
 
 - If you get error with node_modules and you want to reinstall node modules: `yarn clean:modules && yarn install`
 - If you get errors with pods and you want to reinstall pods: `yarn app pod:clean && yarn app pod:install`
-- If you get a lots of issue with the builds run `yarn app clean` and select the artifact you want to clean
 - If you get errors with `Command PhaseScriptExecution failed with a nonzero exit code`: run `nvm unalias default`
   More info about the issue above: https://msirius.medium.com/the-resurrection-of-a-year-old-react-native-app-2347de873c0f
 
 - Find development environment issues:
-
-Run doctor:
-`yarn app react-native doctor`
-
-- Fetch system and libraries information
 
 If you have some issue please share run the following command and share with the team:
 
@@ -97,9 +82,3 @@ System:
   npmGlobalPackages:
     *react-native*: Not Found
 ```
-
-## TODO:
-
-[] Add instructions for Fastlane and create QA and production builds
-
-[] Add instructions for fetch remotely env vars
