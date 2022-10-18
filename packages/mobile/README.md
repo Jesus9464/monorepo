@@ -9,8 +9,8 @@ https://reactnative.dev/docs/environment-setup
 3. Install Nodejs: `nvm install v14.17.5`
    After that you can run `nvm use v14.17.5` and check with `node -v`
 
-4. Install ruby: `rvm install 2.7.4`
-   After that you can run `rvm use 2.7.4` and check with `ruby --version`
+4. Install ruby: `rvm install 2.7.5`
+   After that you can run `rvm use 2.7.5` and check with `ruby --version`
 5. If you do not have yarn installed please run `npm install --global yarn`
 6. (Only M1 users) This fix conflicts with node-canvas on Apple M1 - https://github.com/symbol/wallets-lib/issues/6
 
